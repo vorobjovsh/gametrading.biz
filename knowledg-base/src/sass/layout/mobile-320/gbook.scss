@@ -1,0 +1,19 @@
+.gbook{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title{
+       @include f-G-30;
+       @include margin-bottom(24px);
+    }
+
+    &__text{
+       @include f-Ul-14;
+       text-align: center;
+       @include margin-bottom(47px);
+    }
+
+}

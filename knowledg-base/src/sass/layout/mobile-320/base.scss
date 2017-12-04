@@ -1,0 +1,18 @@
+@media (max-width: 480px){
+    .container{
+        @include min-width(320px);
+    }
+}
+
+.pt-11{
+    @include padding-top(11px);
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+

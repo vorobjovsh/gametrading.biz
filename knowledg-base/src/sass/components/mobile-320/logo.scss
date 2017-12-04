@@ -1,0 +1,31 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+    &__link{
+
+    }
+
+    &__img{
+
+    }
+
+    &__block-text{
+
+    }
+
+    &__text{
+        @include f-OSl-14;
+        color: #fff;
+        @include margin-bottom(4px);
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    &__span{
+        font-weight: bold;
+    }
+
+}

@@ -1,0 +1,8 @@
+.get-book{
+    background-image: url(images/bg-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include padding-top(34px);
+    @include padding-bottom(55px);
+}

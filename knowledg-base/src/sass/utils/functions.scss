@@ -1,0 +1,68 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: calculateRem($size);
+}
+
+@mixin width($size) {
+  width: calculateRem($size);
+}
+
+@mixin min-width($size) {
+  min-width: calculateRem($size);
+}
+
+@mixin max-width($size) {
+  max-width: calculateRem($size);
+}
+
+@mixin height($size) {
+  height: calculateRem($size);
+}
+
+@mixin min-height($size) {
+  min-height: calculateRem($size);
+}
+
+@mixin max-height($size) {
+  max-height: calculateRem($size);
+}
+
+@mixin margin-top($size) {
+  margin-top: calculateRem($size);
+}
+
+@mixin margin-right($size) {
+  margin-right: calculateRem($size);
+}
+
+@mixin margin-bottom($size) {
+  margin-bottom: calculateRem($size);
+}
+
+@mixin margin-left($size) {
+  margin-left: calculateRem($size);
+}
+
+@mixin padding-top($size) {
+  padding-top: calculateRem($size);
+}
+
+@mixin padding-right($size) {
+  padding-right: calculateRem($size);
+}
+
+@mixin padding-bottom($size) {
+  padding-bottom: calculateRem($size);
+}
+
+@mixin padding-left($size) {
+  padding-left: calculateRem($size);
+}
+
+@mixin border-radius($size) {
+  border-radius: calculateRem($size);
+}

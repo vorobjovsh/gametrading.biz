@@ -1,0 +1,66 @@
+@mixin f-OSr{
+    font-family: $f-OS;
+    font-weight: 400;
+}
+
+@mixin f-OSr-14{
+    @include f-OSr;
+    @include font-size(14px);
+}
+
+@mixin f-OSl{
+    font-family: $f-OS;
+    font-weight: 300;
+}
+
+@mixin f-OSl-11{
+    @include f-OSl;
+    @include font-size(11px);
+}
+
+@mixin f-OSl-14{
+    @include f-OSl;
+    @include font-size(14px);
+}
+
+@mixin f-OSl-16{
+    @include f-OSl;
+    @include font-size(16px);
+}
+
+@mixin f-G-30{
+    font-family: $f-G;
+    font-weight: 400;
+    @include font-size(30px);
+    color: #072c3e;
+}
+
+@mixin f-Gl{
+    font-family: $f-G;
+    font-weight: 300;
+}
+
+@mixin f-Gl-16{
+    @include f-Gl;
+    @include font-size(16px);
+}
+
+@mixin f-Gl-18{
+    @include f-Gl;
+    @include font-size(18px);
+}
+
+@mixin f-Gl-22{
+    @include f-Gl;
+    @include font-size(22px);
+}
+
+@mixin f-Ul{
+    font-family: $f-U;
+    font-weight: 300;
+}
+
+@mixin f-Ul-14{
+    @include f-Ul;
+    @include font-size(14px);
+}

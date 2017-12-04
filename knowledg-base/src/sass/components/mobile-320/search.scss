@@ -1,0 +1,6 @@
+.search{
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    @include width(20px);
+    @include height(31px);
+}

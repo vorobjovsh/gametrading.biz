@@ -1,0 +1,18 @@
+.btn{
+    display: inline-block;
+    @include padding-top(12px);
+    @include padding-right(30px);
+    @include padding-bottom(12px);
+    @include padding-left(30px);
+    @include f-OSl-14;
+    color: #fff;
+    @include border-radius(8px);
+
+    &:hover{
+        text-decoration: none;
+    }
+
+    &--orange{
+        background-color: #f7770f;
+    }
+}

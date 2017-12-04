@@ -1,0 +1,6 @@
+.menu{
+    background-image: url(images/s-menu.png);
+    background-repeat: no-repeat;
+    @include width(23px);
+    @include height(28px);
+}

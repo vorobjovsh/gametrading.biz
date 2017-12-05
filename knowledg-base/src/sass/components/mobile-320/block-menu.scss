@@ -1,14 +1,17 @@
 .block-menu{
+    margin-left: -15px;
+    margin-right: -15px;
 
     &__list{
 
     }
 
     &__item{
-        position: relative;
         border-top: 1px solid #cfd7dd;
         @include padding-top(20px);
         @include padding-bottom(20px);
+        padding-left: 15px;
+        padding-right: 15px;
 
         &:last-child{
             border-bottom: 1px solid #cfd7dd;
@@ -21,9 +24,9 @@
         color: #072c3e;
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         &::after{
-            position: absolute;
             content: '';
             width: 0;
             height: 0;
@@ -33,10 +36,46 @@
             border-color: transparent transparent transparent #072c3e;
             right: 0;
         }
+
+        &--active{
+            color: #f7770f;
+            
+            &::after{
+            content: '';
+            width: 0;
+            height: 0;
+            display: inline-block;
+            border-style: solid;
+            border-width: 8px 4px 0 4px;
+            border-color: #f7770f transparent transparent transparent;
+            right: 0;
+        }
+            
+        }
     }
 
     &__span{
-        display: block;
+        width: 63%;
+    }
+
+    &__short-descr{
+        @include margin-top(25px);
+        @include padding-top(20px);
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-top: 1px solid #cfd7dd;
+    }
+
+    &__img{
+
+    }
+
+    &__short-text{
+        @include margin-top(20px);
+        @include f-Ul-14;
+        color: #798286;
     }
 
 }

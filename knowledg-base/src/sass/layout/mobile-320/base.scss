@@ -2,6 +2,10 @@
     .container{
         @include min-width(320px);
     }
+
+    .d-block{
+        display: block !important;
+    }
 }
 
 .pt-11{
@@ -16,3 +20,12 @@ a{
     }
 }
 
+.d-none{
+    display: none !important;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

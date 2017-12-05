@@ -29,3 +29,9 @@
     }
 
 }
+
+@media (max-width: 480px){
+    .logo--footer{
+        justify-content: flex-end;
+    }
+}

@@ -1,0 +1,146 @@
+@media (min-width: 480px){
+    .game-selects{
+        display: none;
+    }
+}
+
+.game-selects{
+    @include padding-top(160px) ;
+
+    &__title{
+        @include f-Gl-22;
+        color: #072c3e;
+        @include margin-bottom(16px);
+    }
+
+    &__block-text{
+        @include padding-bottom(22px);
+    }
+
+    &__text{
+        @include f-Ul-14;
+        color: #525e63;
+    }
+
+    &__btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__block-list{
+        @include padding-top(34px);
+        @include padding-bottom(23px);
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    &__list{
+        margin-bottom: 0;
+    }
+
+    &__item{
+        @include padding-top(15px);
+        @include padding-bottom(24px);
+        border-top: 1px solid #cfd7dd;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &:last-child{
+            border-bottom: 1px solid #cfd7dd;
+        }
+    }
+
+    &__link{
+        @include f-Gl-16;
+        color: #072c3e;
+        
+        &--active{
+            color: #f7770f;
+            display: block;
+            @include padding-bottom(20px);
+        }
+        
+    }
+
+    &__span{
+        display: block;
+
+         &:last-child{
+             width: 50%;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+
+                &::after{
+                content: '';
+                width: 0;
+                height: 0;
+                display: inline-block;
+                border-style: solid;
+                border-width: 4px 0 4px 8px;
+                border-color: transparent transparent transparent #072c3e;
+            }
+        }
+
+    }
+    
+    &__sublist{
+        margin-left: -15px;
+        margin-right: -15px;
+        border-top: 1px solid #cfd7dd;
+    }
+    
+    &__subitem{
+        padding-left: 15px;
+        padding-right: 15px;
+        @include padding-top(16px);
+        @include padding-bottom(16px);
+        border-bottom: 1px solid #cfd7dd; 
+        
+        &:last-child{
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+    }
+    
+    &__sublink{
+        @include f-Ul-14;
+        color: #676767;
+        display: flex;
+        align-items: center;
+        
+        &::before{
+            content: '1';
+            @include margin-right(13px);
+            @include padding-top(1px);
+            @include padding-bottom(1px);
+            @include padding-right(6px);
+            @include padding-left(6px);
+            @include border-radius(2px);
+            background-color: #f7770f;
+            color: #fff;
+            display: block;
+        }
+        
+        &::after{
+            content: url(images/icon-lock.png);
+            @include width(13px);
+            @include height(17px);
+            display: block;
+            margin-left: auto;
+        }
+        
+    }
+
+}
+
+.game-selects__link--active .game-selects__span:last-child::after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-style: solid;
+    border-width: 8px 4px 0 4px;
+    border-color: #f7770f transparent transparent transparent;
+}

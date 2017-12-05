@@ -1,0 +1,40 @@
+.footer{
+    @include padding-top(30px);
+    @include padding-bottom(36px);
+    background-color: #51ae5f;
+
+    &__text{
+        @include f-Gl-18;
+        color: #94ffa5;
+    }
+
+    &__contacts-block{
+
+    }
+
+    &__contact{
+        @include f-OSl-14;
+        color: #fff;
+    }
+
+    &__contact-link{
+        @include f-OSl-14;
+        color: #fff;
+    }
+
+    &__logo{
+        margin-left: auto;
+    }
+
+    &__block-copiright{
+        @include margin-top(16px);
+    }
+
+    &__copiright{
+        @include f-OSl-14;
+        color: #fff;
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+}

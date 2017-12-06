@@ -28,6 +28,14 @@
 @import 'layout/mobile-480/footer.scss';
 @import 'layout/mobile-480/game-selects.scss';
 
+@import 'layout/tablet-750/base.scss';
+@import 'layout/tablet-750/header.scss';
+@import 'layout/tablet-750/get-book.scss';
+@import 'layout/tablet-750/gbook.scss';
+@import 'layout/tablet-750/main-block.scss';
+@import 'layout/tablet-750/footer.scss';
+@import 'layout/tablet-750/game-selects.scss';
+
 @import 'components/mobile-320/logo.scss';
 @import 'components/mobile-320/search.scss';
 @import 'components/mobile-320/menu.scss';
@@ -39,3 +47,9 @@
 @import 'components/mobile-480/menu.scss';
 @import 'components/mobile-480/btn.scss';
 @import 'components/mobile-480/block-menu.scss';
+
+@import 'components/tablet-750/logo.scss';
+@import 'components/tablet-750/search.scss';
+@import 'components/tablet-750/menu.scss';
+@import 'components/tablet-750/btn.scss';
+@import 'components/tablet-750/block-menu.scss';

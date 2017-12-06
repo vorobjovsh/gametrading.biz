@@ -1,6 +1,8 @@
 .logo{
     display: flex;
     justify-content: space-between;
+    @include width(160px);
+    align-items: center;
 
     &__link{
 
@@ -28,10 +30,12 @@
         font-weight: bold;
     }
 
+    @media (max-width: 480px){
+
+        &__link--footer{
+        margin-left: auto;
+    }
+
 }
 
-@media (max-width: 480px){
-    .logo--footer{
-        justify-content: flex-end;
-    }
 }

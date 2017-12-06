@@ -1,0 +1,39 @@
+@media (min-width: 480px){
+
+    .block-menu{
+
+         &__item{
+            @include padding-top(30px);
+            border-top: 0;
+            border-bottom: 1px solid #cfd7dd;
+
+                &:last-child{
+                    border-bottom: 0;
+                }
+
+                 &--active{
+                    padding-bottom: 0;
+                 }
+
+        }
+
+        &__img{
+            @include margin-bottom(20px);
+            filter: opacity(0.5);
+
+            &--active{
+                filter: opacity(1);
+            }
+
+        }
+
+        &__short-descr{
+            border-top: 0;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+    }
+
+
+}

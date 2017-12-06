@@ -1,0 +1,37 @@
+@media (min-width: 480px){
+
+    .footer{
+
+        &__contacts-block{
+
+        }
+
+        &__contact-social{
+            @include max-width(450px);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__social{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__social-link{
+            @include margin-right(15px);
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+
+        }
+
+        &__social-img{
+            @include width(26px);
+            @include height(26px);
+
+        }
+
+    }
+
+}

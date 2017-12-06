@@ -1,0 +1,12 @@
+@media (min-width: 480px){
+
+    .get-book{
+        background-image: url(images/bg-commun.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        @include padding-top(47px);
+        @include padding-bottom(120px);
+    }
+
+}

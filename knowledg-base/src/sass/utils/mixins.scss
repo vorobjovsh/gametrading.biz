@@ -35,6 +35,13 @@
     color: #072c3e;
 }
 
+@mixin f-G-48{
+    font-family: $f-G;
+    font-weight: 400;
+    @include font-size(48px);
+    color: #072c3e;
+}
+
 @mixin f-Gl{
     font-family: $f-G;
     font-weight: 300;

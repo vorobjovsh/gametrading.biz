@@ -23,7 +23,8 @@
     }
 
     &__logo{
-        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
     }
 
     &__block-copiright{

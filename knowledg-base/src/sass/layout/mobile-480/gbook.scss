@@ -1,0 +1,16 @@
+@media (min-width: 480px){
+
+    .gbook{
+
+        &__title{
+           @include f-G-48;
+           @include margin-bottom(34px);
+        }
+
+        &__text{
+           @include margin-bottom(30px);
+        }
+
+    }
+
+}

@@ -1,0 +1,25 @@
+@media (min-width: 480px){
+
+    .btn{
+
+        &--orange-link{
+            padding: 0;
+            color: #f7770f;
+            text-decoration: underline;
+            background-color: #fff;
+
+            &:hover{
+                text-decoration: none;
+            }
+
+        }
+
+        &--trans{
+            background-color: #fff;
+            border: 1px solid #f7770f;
+            color: #672e00;
+        }
+
+    }
+
+}

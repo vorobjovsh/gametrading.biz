@@ -20,8 +20,22 @@
 @import 'layout/mobile-320/footer.scss';
 @import 'layout/mobile-320/game-selects.scss';
 
+@import 'layout/mobile-480/base.scss';
+@import 'layout/mobile-480/header.scss';
+@import 'layout/mobile-480/get-book.scss';
+@import 'layout/mobile-480/gbook.scss';
+@import 'layout/mobile-480/main-block.scss';
+@import 'layout/mobile-480/footer.scss';
+@import 'layout/mobile-480/game-selects.scss';
+
 @import 'components/mobile-320/logo.scss';
 @import 'components/mobile-320/search.scss';
 @import 'components/mobile-320/menu.scss';
 @import 'components/mobile-320/btn.scss';
 @import 'components/mobile-320/block-menu.scss';
+
+@import 'components/mobile-480/logo.scss';
+@import 'components/mobile-480/search.scss';
+@import 'components/mobile-480/menu.scss';
+@import 'components/mobile-480/btn.scss';
+@import 'components/mobile-480/block-menu.scss';

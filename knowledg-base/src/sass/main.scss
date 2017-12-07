@@ -36,6 +36,14 @@
 @import 'layout/tablet-750/footer.scss';
 @import 'layout/tablet-750/game-selects.scss';
 
+@import 'layout/desctop-1200/base.scss';
+@import 'layout/desctop-1200/header.scss';
+@import 'layout/desctop-1200/get-book.scss';
+@import 'layout/desctop-1200/gbook.scss';
+@import 'layout/desctop-1200/main-block.scss';
+@import 'layout/desctop-1200/footer.scss';
+@import 'layout/desctop-1200/game-selects.scss';
+
 @import 'components/mobile-320/logo.scss';
 @import 'components/mobile-320/search.scss';
 @import 'components/mobile-320/menu.scss';
@@ -53,3 +61,9 @@
 @import 'components/tablet-750/menu.scss';
 @import 'components/tablet-750/btn.scss';
 @import 'components/tablet-750/block-menu.scss';
+
+@import 'components/desctop-1200/logo.scss';
+@import 'components/desctop-1200/search.scss';
+@import 'components/desctop-1200/menu.scss';
+@import 'components/desctop-1200/btn.scss';
+@import 'components/desctop-1200/block-menu.scss';

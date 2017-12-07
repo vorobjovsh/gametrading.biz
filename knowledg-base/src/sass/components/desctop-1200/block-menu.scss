@@ -1,0 +1,35 @@
+@media (min-width: 1200px){
+
+    .block-menu{
+
+        &__item-block{
+            @include width(250px);
+            margin: auto;
+        }
+
+        &__link{
+            justify-content: flex-start;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            &::after{
+                @include margin-right(18px);
+            }
+
+        }
+
+        &__span{
+            width: 100%;
+        }
+
+        &__short-descr{
+            @include padding-left(41px);
+        }
+
+    }
+
+    .block-menu__item:nth-child(2n) .block-menu__item-block{
+        margin-right: auto;
+    }
+
+}

@@ -67,7 +67,7 @@ gulp.task('img', () => {
       })))
     // Выкидываем в папку dist/img
     .pipe(gulp.dest('./dist/images'))
-    // Говорим browser-sync о том что пора перезагрузить барузер так как файл изменился
+    // Говорим browser-sync о том что пора перезагрузить браузер так как файл изменился
     .pipe(browserSync.reload({
       stream: true
     }));
